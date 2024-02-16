@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.header-content {
+  background-image: url(./assets/PrimeVideoBg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.animate-bounce-mod {
+  animation: bounce 1.5s infinite ease-in-out;
+}
+
+.bg-linear-sky-transparent {
+  background: linear-gradient(to bottom, rgb(56 189 248) 0%, rgb(56 189 248 / 0.8) 40%, transparent 100%);
+}
+
+.bg-section-2 {
+  background: url(./assets/Section2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.border-b-slide {
+  position: relative;
+  border: none;
+  padding-bottom: 2px;
+}
+
+.border-b-slide:hover {
+  color: rgb(49, 97, 255);
+  transition: color .6s ease-in-out;
+}
+
+.border-b-slide:hover::after {
+  right: 0;
+}
+
+.border-b-slide::after {
+  border-top: 2px solid rgb(49, 97, 255);
+  content: "";
+  position: absolute;
+  right: 100%;
+  left: 0;
+  bottom: 0;
+  transition: right .5s ease-in-out;
+}
+
+
+
+@keyframes bounce {
+  0% {
+    transform: translateY(25%);
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+
+  50% {
+      transform: translateY(-15%);
+      animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  100% {
+    transform: translateY(25%);
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
