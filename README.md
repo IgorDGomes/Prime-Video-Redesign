@@ -4,33 +4,6 @@
 
 This website was designed taking into consideration other streaming platforms.
 
-## Screenshots
-
-### Before
-
-![PrimeVideoScreenshot360px](./public/assets/Responsive_360px-800px.jpg)
-
-- 360px
-
-![PrimeVideoScreenshot1440px](./public/assets/PrimeVideo_1440px-900px.jpg)
-
-- 1440px
-
-### After
-
-![RedesignScreenshot360px](./public/assets/Responsive_360px-800px.jpg)
-
-- 360px
-
-![RedesignScreenshot1440px](./public/assets/Responsive_1440px-900px.jpg)
-
-- 1440px
-
-## Link
-
-- [Prime Video](https://www.primevideo.com/offers/nonprimehomepage)
-- [Redesign](https://prime-video-redesign.netlify.app/)
-
 ## Built with
 
 - React
@@ -38,3 +11,25 @@ This website was designed taking into consideration other streaming platforms.
 - Tailwindcss
 - Vite
 - Radix
+
+## Screenshots
+
+### Before
+[Prime Video website](https://www.primevideo.com/offers/nonprimehomepage)
+
+![PrimeVideoScreenshot360px](./public/assets/PrimeVideo_360px-800px.jpg)
+
+#
+
+![PrimeVideoScreenshot1440px](./public/assets/PrimeVideo_1440px-900px.jpg)
+
+#
+
+### After
+[Redesign website](https://prime-video-redesign.netlify.app/)
+
+![RedesignScreenshot360px](./public/assets/Responsive_360px-800px.jpg)
+
+#
+
+![RedesignScreenshot1440px](./public/assets/Responsive_1440px-900px.jpg)
