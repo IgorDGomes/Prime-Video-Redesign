@@ -25,6 +25,7 @@ export function Footer() {
                 </li>
             </ul>
             <p className="text-neutral-600 text-[0.9rem] w-[80%] text-center">{`© 1996-${y}, Amazon.com, Inc. or its affiliates`}</p>
+            <p className="text-gray-400">Created by <a href="https://github.com/IgorDGomes" className="text-gray-200 hover:text-white">Igor Gomes</a></p>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 export function Hr() {
     return (
-        <div className="h-[0.5vw] bg-zinc-800" />
+        <div className="h-[0.75vw] bg-zinc-800" />
     )
 }

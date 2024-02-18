@@ -1,8 +1,8 @@
+import { Header } from "./sections/Header"
 import { CustomMagnetOne } from "./sections/CustomMagnetOne"
 import { CustomMagnetTwo } from "./sections/CustomMagnetTwo"
 import { Features } from "./sections/Features"
 import { Footer } from "./sections/Footer"
-import { Header } from "./sections/Header"
 import { Hr } from "./sections/Hr"
 
 function App() {
